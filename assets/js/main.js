@@ -36,7 +36,8 @@ $("#overlay").on("mouseleave", function(){
 			$window.on('load', function() {
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
-				}, 0);
+					$("#loading").css('display','none');
+				}, 10);
 			});
 
 		// Mobile?
